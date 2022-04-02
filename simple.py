@@ -1,4 +1,4 @@
-'''
+'''commented code
 Write 6 print() statements to "draw" the following on the console
 
 ooo/\ooo
@@ -8,14 +8,14 @@ o/ '' \o
 || || ||
 xxxxxxxx
 
-(hint: use escape sequence)
+(hint: use escape sequence) google search "escape sequence"
 '''
-line1=''
-line2=''
-line3=''
-line4=''
-line5=''
-line6=''
+line1='ooo/\ooo'
+line2='oo/  \oo'
+line3='o/ \'\' \o'  # string concatenation
+line4='/______\\'
+line5='|| || ||'
+line6='xxxxxxxx'
 print(line1)
 print(line2)
 print(line3)
@@ -25,14 +25,18 @@ print(line6)
 
 '''
 Can you do it with just one print statement?
-(hint: use string concatenation
+(hint: use string concatenation)
 '''
-print()
+print(
+  line1 + '\n' + line2 + '\n' + 
+  line3 + '\n' + line4 + '\n' + 
+  line5 + '\n' + line6
+)
 
 '''
 Choose three positive values for a, b, and c such that the final print() statement returns True
 '''
-a = 
-b = 
-c = 
+a = 5
+b = 12
+c = 13
 print(a**2 + b**2 == c**2)
